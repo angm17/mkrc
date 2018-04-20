@@ -22,14 +22,14 @@ Aditional params:
 
 By default, mkrc creates the component in the same folder where you're calling it inside a folder with the same name as your component. However, you can pass the folder(s) you want to use as params:
 
-	command: mkrc ComponentName -c "/components" -s "/css folder" 
+	command: mkrc ComponentName -c "./components" -s "./css folder" 
 	This will create: "./components/ComponentName/ComponentName.js " and "./css folder/ComponentName/componentname.css"
 
 You can create multiple components at the same time:
 	// mkrc Component1 Component2 ComponentN -c '/components' -s '/css'
 
 If you don't specify a css folder, mkrc will use the same folder as the component folder:
-	command: mkrc ComponentName -c "/components"
+	command: mkrc ComponentName -c ./components
 	This will create: "./components/ComponentName/ComponentName.js" and "./components/ComponentName/componentname.css"
 
 If you don't want mkrc to create a folder with the same name as your component, you can use the name folder param (-f):
@@ -43,7 +43,7 @@ Aditional info:
 	mkrc ComponentName -c "./components" -g
 
 You can find more info here
-
+https://github.com/angm17/mkrc
 
 ######################################`;
 const optionDefinitions = [
