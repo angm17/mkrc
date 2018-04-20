@@ -1,0 +1,19 @@
+{
+  "name": "mkrc",
+  "version": "0.0.1",
+  "description": "Small command line tool written in JavaScript/NodeJs, helps you saving time by creating ReactJs components using the basic boilerplate from the create-react-app cli.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angm17/mkrc"
+  },
+  "author": "Miguel Angarita",
+  "license": "MIT",
+  "bin": {
+    "mkrc": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "mkdirp": "^0.5.1"
+  }
+}
